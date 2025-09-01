@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library1.css">
+</head>
+<body>
+    <h1> 📚Library Book Management</h1>
+    <div class="container">
+        <input type="text" id="title" placeholder="Book Name" required>
+        <input type="text" id="student" placeholder="Student Name" required>
+        <input type="text" id="date" placeholder=" Issue date" required>
+        <button onclick="addBook()">Add Book</button>
+    </div>
+    <table id="booktable">
+        <thead>
+        <tr>
+            <th>Book Name</th>
+            <th>Student Name</th>
+            <th>Date</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="library1.js"></script>
+</body>
+</html>
